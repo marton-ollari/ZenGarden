@@ -1,0 +1,55 @@
+
+body {background: linear-gradient(yellowgreen, yellow)}
+
+p {color: green; text-indent: 20px; text-align: justify}
+
+h3, p, footer {font-family: Arial, 'Times New Roman';}
+
+a {color:darkgreen; text-decoration: underline}
+
+abbr {text-decoration: none}
+
+h1{font-size: 60px; color: yellow;font-family: 'Courier New', Courier}
+h2{display: none}
+
+h3 {background-color: darkgreen; color: yellow; border: solid yellow; padding: 5px}
+
+#zen-intro {font-style: italic}
+
+#zen-summary{margin-top:125px;width: 500px;color: yellow}
+
+#zen-preamble{text-decoration: underline green;}
+
+#design-selection{text-shadow: 1px 1px yellow}
+
+div[role=article] {width: 590px; color: darkgreen}
+
+.page-wrapper {
+    margin-left:100px;
+	width:770px;
+	position:relative;
+    }
+
+header {width:100%;padding:0px 30px 0px 100px;position:fixed; top:0; left: 0;
+        background: darkgreen url('leaves.jpg') 610px no-repeat; 
+        border:solid 5px yellow; height: 125px;}
+
+.summary, .preamble, .supporting {
+	float:left;
+	width:423px;
+    }
+
+.sidebar {
+    color: green;
+    position: fixed;
+	margin:125px 0 0 600px;
+    text-align: center;
+    }
+
+ul {list-style: none;
+    }
+
+footer{text-align: center;
+        font-size: 10px;
+        position: relative;
+        padding-bottom: 20px}
